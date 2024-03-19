@@ -1,5 +1,7 @@
 h1 {font-family: 'Merienda One', 'Brush Script MT', cursive;
-color:rgb(0, 0, 0);
+color: antiquewhite; fo
+}
+{
 padding-top: 20px;
 }
 
@@ -10,7 +12,10 @@ header > p
 {
     text-align: center;
     padding-bottom: 5px;
+    color: antiquewhite;
 }
+
+a {color: antiquewhite;}
 
 body
 {
@@ -26,9 +31,10 @@ h1, h2
 
 nav 
 {
-    background-color: rgb(158, 51, 51);
+    background-image:url("https://wallpapercave.com/wp/wp7456213.jpg");
     text-align: center;
     padding: 10px;
+    
 }
 
 li {
@@ -37,7 +43,8 @@ li {
     
 }
 
-.circle{ 
+.circle
+{ 
         list-style: none;
         padding : 15px;
         border: 2px solid;
@@ -45,6 +52,45 @@ li {
         width: 50px;
         border-radius:50px;
         text-align:center; 
-        display: inline-table
-        
+        display: inline-table       
+}
+
+	
+
+a:hover {
+	text-decoration: none;
+	color: chocolate;
+}
+
+footer {
+	background-image:url("https://wallpapercave.com/wp/wp7456213.jpg");
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+}
+
+footer > span {
+	color: antiquewhite;
+    font-weight: bold;
+}
+
+footer > a {
+	color: antiquewhite;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
+footer > p {
+	color: antiquewhite;
+    font-weight: bold;
+}
+
+fieldset {
+	border: none;
+	margin-top: 20px;
 }
