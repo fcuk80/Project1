@@ -1,7 +1,11 @@
 h1 {font-family: 'Merienda One', 'Brush Script MT', cursive;
-color: antiquewhite; 
+color: black;
 }
 
+p 
+{
+    fo
+}
 header 
 {
     background-image:url("https://wallpapercave.com/wp/wp7456213.jpg") 
@@ -54,6 +58,13 @@ li
 {
     list-style: none;
     text-transform: capitalize; 
+}
+
+img 
+{
+    border-radius: 10px;
+    height: 200px;
+
 }
 
 #foodlist 
@@ -206,3 +217,6 @@ footer > p
     font-weight: bold;
     font-size: larger;
 }
+
+/*mobile 425px*/
+@media screen  and (min-width: 427px) 
