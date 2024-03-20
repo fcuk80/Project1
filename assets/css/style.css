@@ -1,13 +1,20 @@
 h1 {font-family: 'Merienda One', 'Brush Script MT', cursive;
-color: antiquewhite; fo
-}
-{
-padding-top: 20px;
+color: antiquewhite; 
 }
 
-header {
+header 
+{
     background-image:url("https://wallpapercave.com/wp/wp7456213.jpg") 
 }
+#open {padding-left: 100px; font-size: x-large;
+}
+
+
+h1
+{
+    padding-top: 20px;
+}
+
 header > p
 {
     text-align: center;
@@ -15,34 +22,81 @@ header > p
     color: antiquewhite;
 }
 
-a {color: antiquewhite;}
+a 
+{
+    color: antiquewhite;
+}
 
 body
 {
     background-color: bisque;
+    margin-bottom: 70px;
 }
-p {text-transform: capitalize;}
+
+p 
+{
+    text-transform: capitalize;
+}
 
 h1, h2 
 {
     text-align: center;
 }
 
-
 nav 
 {
     background-image:url("https://wallpapercave.com/wp/wp7456213.jpg");
     text-align: center;
     padding: 10px;
-    
 }
 
-li {
+li 
+{
     list-style: none;
     text-transform: capitalize; 
-    
 }
 
+#foodlist 
+{ 
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 5px;
+    font-family: cursive;
+}
+
+#coffeelist 
+{ 
+    padding-left: 200px;
+    padding-bottom: 5px;
+    font-family: cursive;
+}
+
+#tealist 
+{ 
+    padding-left: 200px;
+    padding-bottom: 5px;
+    font-family: cursive;
+}
+
+#dessertslist 
+{
+    padding-left: 70px;
+    padding-bottom: 5px;
+    font-family: cursive;
+}
+
+.banner 
+{
+    color: antiquewhite;
+    background-image:url("https://wallpapercave.com/wp/wp7456213.jpg");
+}
+
+#foodmenu 
+{
+    text-align: center;
+    padding: 10px;
+}
+    
 .circle
 { 
         list-style: none;
@@ -51,20 +105,86 @@ li {
         height: 50px;
         width: 50px;
         border-radius:50px;
-        text-align:center; 
-        display: inline-table       
+        text-align: center; 
+        display: inline-table; 
+       
 }
 
+#coke 
+{
+    background-image: url(https://www.nicepng.com/png/detail/963-9634958_coke-logo-coca-cola.png);
+    background-position: center;
+    background-size: 110%;
+    color: transparent;
+}
 	
+#fanta 
+{
+    background-image: url(https://th.bing.com/th/id/OIP.T8cXZcCNNYeV9OD8OMsBXgHaHR?w=189&h=186&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-position: center;
+    background-size: 110%;
+    color: transparent;
+}
+
+#sprite 
+{
+    background-image:url(https://th.bing.com/th?id=OIP.5tNq6vNG8ZNEbEwjzre3_wHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+    background-position: center;
+    background-size: 200%;
+    color: transparent;
+}
+
+#oj 
+{
+    background-image: url(https://th.bing.com/th?id=OIP.K7BHGggxvD8bdBbiqrUbngHaGG&w=275&h=226&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+    background-position: center;
+    background-size: 150%;
+    color: transparent;
+}
+
+#apple 
+{
+    background-image: url(https://th.bing.com/th/id/OIP.AtsOWsLbJwW25YxqRFBr6wHaH_?rs=1&pid=ImgDetMain);
+    background-position: center;
+    background-size: 160%;
+    color: transparent;
+}
+
+#water 
+{
+    background-image: url(https://th.bing.com/th?id=OIP.kg8Vu0RyOTVmxM7bAhjIJQHaFP&w=297&h=210&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+    background-position: center;
+    background-size: 210%;
+    color: transparent;
+}
+
+#contactmenu 
+{
+    background-image: url("https://wallpapercave.com/wp/wp7456213.jpg");
+    color: antiquewhite;
+}
 
 a:hover {
 	text-decoration: none;
 	color: chocolate;
+    
+}
+
+fieldset 
+{
+	border: none;
+	margin-top: 20px;
+}
+
+footer > span 
+{
+	color: antiquewhite;
+    font-weight: bold;
 }
 
 footer {
 	background-image:url("https://wallpapercave.com/wp/wp7456213.jpg");
-	padding: 1em;
+	padding-top: 10px;
 	text-align: center;
     width: 100%;
     position: fixed;
@@ -73,24 +193,16 @@ footer {
 	z-index: 3;
 }
 
-footer > span {
-	color: antiquewhite;
-    font-weight: bold;
-}
-
 footer > a {
 	color: antiquewhite;
 	text-decoration: none;
-	padding: 0 15px;
-	font-size: 0.8rem;
+	padding: 0 10px ;
+	font-size: 2rem;
 }
 
-footer > p {
+footer > p 
+{
 	color: antiquewhite;
     font-weight: bold;
-}
-
-fieldset {
-	border: none;
-	margin-top: 20px;
+    font-size: larger;
 }
