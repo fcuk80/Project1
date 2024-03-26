@@ -1,18 +1,42 @@
 h1 {font-family: 'Merienda One', 'Brush Script MT', cursive;
-color: black;
+color: white;
 }
 
-p 
+.flex-container 
 {
-    fo
+    display: flex;
+    background-color: bisque;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.flex-container > div 
+{
+    background-color:bisque;
+    margin: 10px;
+    padding: 10px;
+    font-size: 100px;
+    flex-basis: auto;
+}
+
+.banner 
+{
+    color: white;
+    background-image:url("https://wallpapercave.com/wp/wp7456213.jpg");
+    border-radius: 5px;
+}
+
 header 
 {
     background-image:url("https://wallpapercave.com/wp/wp7456213.jpg") 
 }
-#open {padding-left: 100px; font-size: x-large;
-}
 
+#open 
+{
+    padding-left: 100px; font-size: x-large;
+}
 
 h1
 {
@@ -23,12 +47,12 @@ header > p
 {
     text-align: center;
     padding-bottom: 5px;
-    color: antiquewhite;
+    color: white;
 }
 
 a 
 {
-    color: antiquewhite;
+    color: white;
 }
 
 body
@@ -63,8 +87,14 @@ li
 img 
 {
     border-radius: 10px;
-    height: 200px;
+    height: 250px;
+    width: 250px;
+}
 
+#foodmenu 
+{
+    text-align: center;
+    padding: 10px;
 }
 
 #foodlist 
@@ -75,16 +105,31 @@ img
     font-family: cursive;
 }
 
+.hotdrinks 
+{
+    display: flex;
+    background-color: bisque;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:bisque;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    flex-basis: auto;
+}
+
 #coffeelist 
 { 
-    padding-left: 200px;
     padding-bottom: 5px;
     font-family: cursive;
+    border: 2px;
 }
 
 #tealist 
 { 
-    padding-left: 200px;
+    
     padding-bottom: 5px;
     font-family: cursive;
 }
@@ -96,29 +141,16 @@ img
     font-family: cursive;
 }
 
-.banner 
-{
-    color: antiquewhite;
-    background-image:url("https://wallpapercave.com/wp/wp7456213.jpg");
-}
-
-#foodmenu 
-{
-    text-align: center;
-    padding: 10px;
-}
-    
 .circle
 { 
-        list-style: none;
-        padding : 15px;
-        border: 2px solid;
-        height: 50px;
-        width: 50px;
-        border-radius:50px;
-        text-align: center; 
-        display: inline-table; 
-       
+    list-style: none;
+    padding : 15px;
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    border-radius:50px;
+    text-align: center; 
+    display: inline-table; 
 }
 
 #coke 
@@ -172,7 +204,7 @@ img
 #contactmenu 
 {
     background-image: url("https://wallpapercave.com/wp/wp7456213.jpg");
-    color: antiquewhite;
+    color: white;
 }
 
 a:hover {
@@ -189,7 +221,7 @@ fieldset
 
 footer > span 
 {
-	color: antiquewhite;
+	color: white;
     font-weight: bold;
 }
 
@@ -205,7 +237,7 @@ footer {
 }
 
 footer > a {
-	color: antiquewhite;
+	color: white;
 	text-decoration: none;
 	padding: 0 10px ;
 	font-size: 2rem;
@@ -213,10 +245,9 @@ footer > a {
 
 footer > p 
 {
-	color: antiquewhite;
+	color: white;
     font-weight: bold;
-    font-size: larger;
+    font-size: medium;
 }
 
 /*mobile 425px*/
-@media screen  and (min-width: 427px) 
